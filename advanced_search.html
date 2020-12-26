@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+ 
+	<style>       
+	a {
+		color: rgba(0, 0, 0, 0.87);
+		text-decoration: none;
+		font-size: 13px;
+		font-family: arial,sans-serif;
+		position: absolute;
+		top: 2%;
+		left: 94%;
+        }
+	a:hover {
+		text-decoration: underline;
+	}
+	.but {
+  		height: 30px;
+		min-width: 120px;
+		padding: 0 12px;
+		background-color: #4d90fe;
+		border: 1px solid #3079ed;
+		color: white;
+		border-radius: 2px;
+		font-size: 11px;
+		font-weight: bold;
+		text-align: center;
+		position: relative;
+		left: 36%;
+	}
+	h1 {
+		color: #d93025;
+		font-family: arial,sans-serif;
+		margin: 2px;
+		padding: 25px;   		
+		font-weight: inherit;
+		font-size: 20px;
+	}
+	.inptxt {
+
+		border: 1px solid #d9d9d9;
+		border-top: 1px solid #c0c0c0;  		
+		width:580px; 
+		height:25px;
+		margin: 10px 0px 10px 50px		
+
+	}
+	.txt1 {
+		width:150px; 
+		display: inline-block;
+	}
+		
+
+	</style>
+    </head>
+
+    <body style="background: #f1f1f1">
+	<div>
+	<img src="https://www.google.com/logos/doodles/2020/december-holidays-days-2-30-6753651837108830.3-law.gif" alt="Google" style="width: 10%; height: auto; margin-top: 2px;">
+	</div>
+
+	<div>	
+	<a href="index.html">Google Search</a>
+	</div>
+
+	<div style="background-color: white;">	
+	<h1> Advanced Search </h1>
+	</div>
+
+        <form action="https://google.com/search" style="background-color: white; padding: 25px; font-family: arial,sans-serif; font-size: 12px;">
+		
+		<div style="font-size: 16px; margin: 30px 0px 30px 0px">
+		Find pages with…
+		</div>
+
+		<div>
+		<div class="txt1"> all these words: </div>
+		<input type="text" name="as_q" class="inptxt" >
+		</div>
+
+		<div>
+	       	<div class="txt1"> this exact word or phrase: </div>
+		<input type="text" name="as_epq" class="inptxt">
+		</div>
+
+		<div>
+	       	<div class="txt1"> any of these words: </div>
+		<input type="text" name="as_oq" class="inptxt">
+		</div>
+
+		<div>
+	       	<div class="txt1"> none of these words: </div>
+		<input type="text" name="as_eq" class="inptxt">
+		</div>
+
+        	<input type="submit" value="Advanced Search" class="but">
+        </form>
+	<hr>
+    </body>
+</html>

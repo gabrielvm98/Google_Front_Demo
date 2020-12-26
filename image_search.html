@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+ 
+	<style>       
+	a {
+                float:right;
+                margin: 10px;
+		color: rgba(0, 0, 0, 0.87);
+		text-decoration: none;
+		font-size: 13px;
+		font-family: arial,sans-serif;
+        }
+	a:hover {
+		text-decoration: underline;
+	}
+	.but {
+  		background-color: #f8f9fa;
+		border: 1px solid #f8f9fa;
+		border-radius: 4px;
+		color: #3c4043;
+		font-size: 14px;
+		margin: 11px 4px;
+		padding: 0 16px;
+		line-height: 27px;
+		height: 36px;
+		min-width: 54px;
+	}
+	#image-text{ 
+		position: absolute;
+		top: 19%; 
+		left: 54.2%; 
+		font: 16px/16px roboto-regular, arial, sans-serif; 
+		color: #4285f4; 
+	} 
+	</style>
+    </head>
+
+    <body  align="center">
+	<div>	
+	<a href="index.html">Google Search</a>
+	</div>
+
+	<br><br><br>
+	<div>
+	<img src="https://www.google.com/logos/doodles/2020/december-holidays-days-2-30-6753651837108830.3-law.gif" alt="Google">
+	<h2 id = "image-text">images</p>
+	</div>
+
+        <form action="http://images.google.com/images">
+            <input type="text" name="q" style="border-radius: 30px 30px 30px 30px; width:450px; height:25px; border-color:#e3e3e3; border-style: solid; border-width: 1px;">
+	    <br><br>
+            <input type="submit" value="Google Search" class="but">
+        </form>
+
+    </body>
+</html>
